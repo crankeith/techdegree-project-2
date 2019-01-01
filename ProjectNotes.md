@@ -64,4 +64,27 @@ You've been supplied several files for this project:
     - Practice your Google skills by finding different ways to ask the questions you have, paying close attention to the sort of results you get back depending on how your questions are worded.
 
 ###NOTE: What you submit is what will get reviewed.
-- When you submit your project, a snapshot is taken of your repository, and that is what the reviewer will see. Consequently, any changes you make to your repo after you submit will not be seen by the reviewer. So before you submit, it's a smart idea to do a final check to make sure everything in your repo is exactly what you want to submit.
+- hen you submit your project, a snapshot is taken of your repository, and that is what the reviewer will see. Consequently, any changes you make to your repo after you submit will not be seen by the reviewer. So before you submit, it's a smart idea to do a final check to make sure everything in your repo is exactly what you want to submit.
+
+## Extra Credit
+###Add search component
+- Dynamically create and append a search component. You can reference the examples/example-exceeds.html file, lines 16-19, to see an example of the markup you'll need.
+- Add functionality to the search component
+- When the "Search" button is clicked, the list of students is filtered to match the search value. For example if the name Phillip is typed into the box, list all students whose name or email includes Phillip.
+
+**Note:** To improve the functionality and add to the user experience, consider adding a keyup event listener to the search input so that the list filters in real time as the user types. This would be in addition to making the search button clickable since pasting text into the search bar wouldn't trigger the keyup event.
+
+###Paginate search results
+- Display pagination links based on how many search results are returned. For example: if 10 or fewer results are returned, 0 or 1 pagination links are displayed. If 22 search results are returned, 3 pagination links are displayed.
+
+**Note:** If you created functions for showing and hiding students, creating and appending pagination links, and adding functionality to the links, then this part of the project will be much more manageable.
+
+###Handle no results returned
+- If no matches are found by the search, include a message in the HTML to tell the user there are no matches.
+
+**Note:** Don't use the built in alert() method here. The "No results" message must be printed to the page somehow.
+
+###NOTE:
+- To get an "Exceeds Expectations" grade for this project, you'll need to complete each of the items in this section. See the rubric in the "How You'll Be Graded" tab above for details on how you'll be graded.
+- If you’re shooting for the "Exceeds Expectations" grade, it is recommended that you mention so in your submission notes.
+- Passing grades are final. If you try for the "Exceeds Expectations" grade, but miss an item and receive a “Meets Expectations” grade, you won’t get a second chance. Exceptions can be made for items that have been misgraded in review.

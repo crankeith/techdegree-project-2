@@ -31,6 +31,27 @@ You've been supplied several files for this project:
 - Since no more than 10 students should be shown at a time, your programming needs to calculate the number of pages needed and add the appropriate number of links to the bottom of the page. This can be accomplished with simple division - the total number of students divided by the max number of students on each page and rounded up. So 54 students divided by ten, rounded up, equals 6 pages.
 - Your program should work for any number of students. You can test your code by checking the examples/44students.html and examples/64 students.html files.
 
+```
+<div class="pagination">
+        <ul>
+          <li>
+            <a class="active" href="#">1</a>
+          </li>
+           <li>
+            <a href="#">2</a>
+          </li>
+           <li>
+            <a href="#">3</a>
+          </li>
+           <li>
+            <a href="#">4</a>
+          </li>
+           <li>
+            <a href="#">5</a>
+          </li>
+        </ul>
+  </div>
+```
 **Pro Tip**: Google
 
 - It is actually pretty common to forget exactly which method you need to use for a given task, or to forget some detail of how to use your chosen method. This is exactly why Google is such an important tool for modern developers. Even the pros are using it everyday because there is just too much in this industry to remember it all. So if you get stuck or have questions about creating and appending elements or working with their values and attributes, use the opportunity to practice you Googling skills. And reach out on Slack for any follow up questions or discussions. It's great to talk about these things with the team.

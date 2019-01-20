@@ -96,8 +96,9 @@ body{
   }
 
 .pagination{
-  margin: 40px 0 0 0;
+  margin: 40px 18vw 0 0;
   text-align: center;
+  display: inline-block;
 }
  
   .pagination li{
@@ -117,3 +118,21 @@ body{
       background-color: #4ba6c3;
       color: #fff;
     }
+
+.page-size{
+  margin: 40px 20px 0 18vw;
+  text-align: center;
+  display: inline-block;
+}
+
+.page-size select {
+  min-width: 50px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.page-size label{
+  margin-right: 10px;
+}
